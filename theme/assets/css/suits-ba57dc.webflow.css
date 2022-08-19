@@ -1,0 +1,669 @@
+.hero-wrapper {
+  position: relative;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.hero-back {
+  position: relative;
+  overflow: scroll;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.text-block {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  font-family: Htfdidot, sans-serif;
+  color: #fff;
+  font-size: 15rem;
+  line-height: 100%;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.div-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.absolutebottom {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.suit-frame {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.35);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-2 {
+  width: auto;
+}
+
+.image-3 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.image-4 {
+  position: static;
+  width: 100%;
+}
+
+.thesuitshop {
+  width: 100%;
+}
+
+.bottomblock {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.ghostblack {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+
+.bottomholder {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: auto;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.thesuit {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.sideright {
+  position: absolute;
+  left: auto;
+  top: 13%;
+  right: 7%;
+  bottom: auto;
+  display: block;
+}
+
+.sidepanel {
+  width: 20rem;
+  margin-top: 31%;
+  margin-right: 0%;
+  margin-bottom: 55px;
+  padding-right: 0px;
+  font-family: Htfdidot, sans-serif;
+  color: #fdfafa;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 100;
+}
+
+.link {
+  border: 1px none #000;
+  text-decoration: none;
+}
+
+.link.white {
+  font-family: 'Gotham book', sans-serif;
+  color: #fffefe;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.link.white:hover {
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  outline-color: #fffefe;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+}
+
+.left50 {
+  width: 50%;
+}
+
+.div-block-3 {
+  width: 50%;
+}
+
+.secondrow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right50 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: opacity 650ms ease;
+  transition: opacity 650ms ease;
+}
+
+.suitheadline1 {
+  margin-bottom: 0px;
+  font-family: Tradegothiclt, sans-serif;
+  font-size: 1rem;
+  line-height: 120%;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.suitheadline1.large {
+  margin-top: 0px;
+  margin-bottom: 34px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-block-2 {
+  margin-right: auto;
+  margin-bottom: 44px;
+  margin-left: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'Gotham book', sans-serif;
+  font-size: 1rem;
+  line-height: 200%;
+}
+
+.black-button {
+  position: relative;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 22px;
+  background-color: #080808;
+  font-family: 'Gotham book', sans-serif;
+  font-size: 0.8rem;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.black-button:hover {
+  background-color: #fff;
+  outline-color: rgba(0, 0, 0, 0.59);
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 1px;
+  color: #201f1f;
+}
+
+.positioning {
+  margin-right: 0%;
+  margin-left: 0%;
+  border-bottom: 1px solid #000;
+}
+
+.statement {
+  max-width: 60rem;
+  margin: 10% auto 0%;
+  padding-right: 0%;
+  padding-bottom: 27px;
+  padding-left: 0%;
+  font-family: Htfdidot, sans-serif;
+  font-size: 2rem;
+  line-height: 200%;
+  font-weight: 300;
+}
+
+.section {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.herogrid {
+  position: static;
+  height: 100%;
+  -ms-grid-rows: 0.75fr 0.25fr;
+  grid-template-rows: 0.75fr 0.25fr;
+}
+
+._2frs {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.body {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.herocontent {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.34)), to(rgba(0, 0, 0, 0.34))), var(--image-6e148e78);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), var(--image-6e148e78);
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.heroinner {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.thesuitimage {
+  position: relative;
+  bottom: auto;
+  z-index: 5;
+  width: 90%;
+}
+
+.cta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-bottom: 10%;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-wrapper {
+    position: relative;
+    height: auto;
+    min-height: 80vh;
+  }
+
+  .hero-back {
+    overflow: hidden;
+    height: auto;
+    max-height: 90vh;
+  }
+
+  .image {
+    position: relative;
+    height: auto;
+  }
+
+  .suit-frame {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+  }
+
+  .ghostblack {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    max-height: none;
+  }
+
+  .bottomholder {
+    position: relative;
+    max-height: 90vh;
+  }
+
+  .thesuit {
+    height: auto;
+  }
+
+  .sideright {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .sidepanel {
+    width: 16rem;
+    margin-top: 0%;
+    font-size: 1rem;
+  }
+
+  .statement {
+    max-width: 40rem;
+  }
+
+  .section {
+    overflow: visible;
+    width: 100%;
+    height: auto;
+    max-height: 90vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-back {
+    height: auto;
+  }
+
+  .ghostblack {
+    height: 70vh;
+  }
+
+  .left50 {
+    width: 100%;
+  }
+
+  .secondrow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .secondrow.right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .right50 {
+    width: 100%;
+  }
+
+  .statement {
+    max-width: none;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 1.5rem;
+  }
+
+  .section {
+    max-height: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-wrapper {
+    min-height: 300px;
+  }
+
+  .hero-back {
+    height: auto;
+  }
+
+  .ghostblack {
+    height: 70vh;
+  }
+
+  .sideright {
+    left: 0%;
+    top: 40%;
+    right: 0px;
+    bottom: auto;
+    width: auto;
+    margin-top: 60px;
+    margin-left: 10px;
+    padding-left: 0%;
+  }
+
+  .sidepanel {
+    margin-top: 10%;
+    margin-bottom: 12%;
+    padding-left: 0px;
+  }
+
+  .link.white {
+    line-height: 150%;
+  }
+
+  .statement {
+    font-size: 1rem;
+  }
+}
+
+@font-face {
+  font-family: 'Tradegothiclt';
+  src: url("/assets/fonts/tradegothiclt-boldcondtwenty.woff2") format('woff2'), url("/assets/fonts/tradegothiclt-boldcondtwenty.woff") format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tradegothiclt condeighteen';
+  src: url("/assets/fonts/tradegothiclt-condeighteen.woff2") format('woff2'), url("/assets/fonts/tradegothiclt-condeighteen.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-xlightitalic.otf") format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-bold.otf") format('opentype'), url("/assets/fonts/gotham-boldita.otf") format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham bookita';
+  src: url("/assets/fonts/gotham-bookita.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-bookitalic.otf") format('opentype'), url("/assets/fonts/gotham-ultraitalic.otf") format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-xlight.otf") format('opentype'), url("/assets/fonts/gotham-lightita.otf") format('opentype'), url("/assets/fonts/gotham-light.otf") format('opentype'), url("/assets/fonts/gotham-xlightita.otf") format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-blackita.otf") format('opentype'), url("/assets/fonts/gotham-black.otf") format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham book';
+  src: url("/assets/fonts/gotham-book.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-medium.otf") format('opentype'), url("/assets/fonts/gotham-mediumita.otf") format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-thinitalic.otf") format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("/assets/fonts/gotham-thin.otf") format('opentype'), url("/assets/fonts/gotham-thinita.otf") format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham ultra';
+  src: url("/assets/fonts/gotham-ultra.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham ultraita';
+  src: url("/assets/fonts/gotham-ultraita.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Htfdidot';
+  src: url("/assets/fonts/htfdidot-bold11.otf") format('opentype'), url("/assets/fonts/htfdidot-bold06.otf") format('opentype'), url("/assets/fonts/htfdidot-bold16.otf") format('opentype'), url("/assets/fonts/htfdidot-bold24.otf") format('opentype'), url("/assets/fonts/htfdidot-bold42.otf") format('opentype'), url("/assets/fonts/htfdidot-bold64.otf") format('opentype'), url("/assets/fonts/htfdidot-bold96.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita06.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita11.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita16.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita24.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita42.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita64.otf") format('opentype'), url("/assets/fonts/htfdidot-boldita96.otf") format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Htfdidot';
+  src: url("/assets/fonts/htfdidot-light06.otf") format('opentype'), url("/assets/fonts/htfdidot-light11.otf") format('opentype'), url("/assets/fonts/htfdidot-light24.otf") format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Htfdidot';
+  src: url("/assets/fonts/htfdidot-light96.otf") format('opentype'), url("/assets/fonts/htfdidot-light42.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita06.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita11.otf") format('opentype'), url("/assets/fonts/htfdidot-light64.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita16.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita24.otf") format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Htfdidot';
+  src: url("/assets/fonts/htfdidot-medium11.otf") format('opentype'), url("/assets/fonts/htfdidot-medium16.otf") format('opentype'), url("/assets/fonts/htfdidot-medium24.otf") format('opentype'), url("/assets/fonts/htfdidot-medium06.otf") format('opentype'), url("/assets/fonts/htfdidot-medium42.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita11.otf") format('opentype'), url("/assets/fonts/htfdidot-medium64.otf") format('opentype'), url("/assets/fonts/htfdidot-medium96.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita06.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita16.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita64.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita96.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita24.otf") format('opentype'), url("/assets/fonts/htfdidot-mediumita42.otf") format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Htfdidot';
+  src: url("/assets/fonts/htfdidot-light16.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita42.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita64.otf") format('opentype'), url("/assets/fonts/htfdidot-lightita96.otf") format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
